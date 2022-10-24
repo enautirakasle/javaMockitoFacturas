@@ -2,7 +2,10 @@
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+ * ejemplo de aqui
+ * https://www.arquitecturajava.com/mockito-stub-test-y-aislamiento/
+ */
 public class Factura {
 
   private int numero;
