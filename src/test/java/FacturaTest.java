@@ -24,7 +24,7 @@ public class FacturaTest {
 	  
 	  @Test
 	  public void testCalculoDelIva2() {
-	    
+	    //bi lerro sortu mockitoren bidez
 	    LineaFactura l1= mock(LineaFactura.class);
 	    LineaFactura l2= mock(LineaFactura.class);
 	    when (l1.getImporteConIVA()).thenReturn(25.5);
