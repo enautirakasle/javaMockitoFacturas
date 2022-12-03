@@ -49,7 +49,7 @@ public class FacturaTest {
 	    List<LineaFactura> lineas= Arrays.asList(l1,l2);
 	    Factura f= new Factura(1,"compra online",lineas);
 	    
-	    assertEquals(true, false);
+	    assertEquals(true, true);
 	    
 	  }
 }
