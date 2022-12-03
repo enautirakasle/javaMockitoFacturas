@@ -11,7 +11,7 @@ import org.junit.Test;
 public class FacturaTest {
 	  @Test
 	  public void testCalculoDelIva() {
-	    
+	    //beste iruzkin bat
 	    LineaFactura l1= new LineaFactura(1,"tablet",200);
 	    LineaFactura l2= new LineaFactura(2,"lampara",20);
 	  
