@@ -37,4 +37,19 @@ public class FacturaTest {
 	    assertEquals(55.8,f.getImporteConIVA(),0);
 	    
 	  }
+	  
+	  @Test
+	  public void testCalculoDelIva3() {
+	    //bi lerro sortu mockitoren bidez
+	    LineaFactura l1= mock(LineaFactura.class);
+	    LineaFactura l2= mock(LineaFactura.class);
+	    when (l1.getImporteConIVA()).thenReturn(25.5);
+	    when (l2.getImporteConIVA()).thenReturn(30.3);
+	    
+	    List<LineaFactura> lineas= Arrays.asList(l1,l2);
+	    Factura f= new Factura(1,"compra online",lineas);
+	    
+	    assertEquals(true, false);
+	    
+	  }
 }
