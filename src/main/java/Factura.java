@@ -1,6 +1,7 @@
 
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 /*
  * ejemplo de aqui
@@ -10,7 +11,33 @@ public class Factura {
 
   private int numero;
   private String concepto;
-  private List<LineaFactura> lineas= new ArrayList<LineaFactura>();
+  private Date fecha;
+  /**
+ * @return the fecha
+ */
+public Date getFecha() {
+	return fecha;
+}
+/**
+ * @param fecha the fecha to set
+ */
+public void setFecha(Date fecha) {
+	this.fecha = fecha;
+}
+/**
+ * @return the lineas
+ */
+public List<LineaFactura> getLineas() {
+	return lineas;
+}
+/**
+ * @param lineas the lineas to set
+ */
+public void setLineas(List<LineaFactura> lineas) {
+	this.lineas = lineas;
+}
+
+private List<LineaFactura> lineas= new ArrayList<LineaFactura>();
   
   
   public int getNumero() {
